@@ -1,0 +1,346 @@
+.card-body .btn:hover {
+  background-color: white;
+  color: red;
+  border: solid black;
+}
+
+.card-body a {
+  border-radius: 31rem;
+  width: 55%;
+  margin-left: 3rem;
+  background-color: white;
+  border: 1px solid grey;
+  color: black;
+  padding: 0;
+}
+
+.card {
+  position: relative;
+}
+
+.card .heart {
+  font-size: 21px;
+  width: 40px;
+  height: 40px;
+  margin-left: 14rem;
+}
+
+.card .heart a {
+  color: black;
+}
+
+.card .heart a:hover {
+  color: red;
+}
+
+.card .star {
+  color: #fab60a;
+  position: absolute;
+  top: 3%;
+  left: 61%;
+}
+
+.card span {
+  font-weight: bold;
+  background-color: #4f2d22;
+  width: 19%;
+  border: 1px solid #4f2d22;
+  color: #fed85d;
+  padding: 5px 1px;
+  border-radius: 5px;
+  position: absolute;
+  top: 2%;
+  left: 3%;
+}
+
+.servic {
+  margin-top: 4rem;
+}
+
+.servic h6 {
+  font-size: 19px;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  margin: 1rem 0;
+}
+
+.servic p {
+  margin: 1em 0;
+  line-height: 1.625em;
+  margin: 1em 0;
+  color: grey;
+}
+
+.servic .recipes {
+  background-image: url(img/menu.png);
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.servic .img {
+  background-image: url(img/food.png);
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.servic .location {
+  background-image: url(img/car-wash.png);
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.servic .delivery {
+  background-image: url(img/fast-delivery.png);
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.carousel-inner .carousel-item {
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+}
+
+.carousel-inner .carousel-item .carousel-caption h5 {
+  font-size: 60px;
+  color: white;
+}
+
+.sandwich p {
+  text-align: center;
+  margin: 1em 0;
+  line-height: 1.625em;
+  color: #888;
+}
+
+.sandwich h3 {
+  color: #22272d;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-family: Rubik;
+  line-height: 1.3em;
+}
+
+.year-tab-panel h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 44px;
+  font-style: normal;
+  padding: 11px;
+  margin: 14px;
+}
+
+.year-tab-panel .myText p {
+  margin: 2em 0;
+  line-height: 1.625em;
+  text-align: center;
+  font-size: 22px;
+  font-family: inherit;
+}
+
+.year-tab-panel ul {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.year-tab-panel ul li {
+  margin: 0 30px;
+  border-radius: 41px;
+  padding: 10px;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.year-tab-panel ul li .list-group-item {
+  padding: 1rem 2rem;
+  border: solid #d6cbcb;
+}
+
+.year-tab-panel ul li .list-group-item.active {
+  background-color: #d6cbcb !important;
+}
+
+.year-tab-panel ul li + li ::after {
+  content: "";
+  height: 2px;
+  width: 75px;
+  border-bottom: 2px dashed gray;
+  position: absolute;
+  vertical-align: middle;
+  left: -79px;
+  top: 50%;
+}
+
+.year-tab-panel .list-group-item:hover {
+  background-color: #e4584b !important;
+}
+
+@media screen and (max-width: 992px) {
+  .year-tab-panel ul li {
+    margin: 0 -13px;
+    border-radius: 41px;
+    padding: 10px;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  .year-tab-panel ul li + li ::after {
+    content: "";
+    height: 2px;
+    width: 75px;
+    border-bottom: 2px dashed gray;
+    position: absolute;
+    vertical-align: middle;
+    left: -79px;
+    top: 50%;
+    display: none;
+  }
+}
+
+.contact .mytext {
+  margin-bottom: 35px;
+}
+
+.contact .mytext .basliq-2 {
+  margin: 15px;
+}
+
+.contact .mytext .takeout {
+  margin: 15px;
+  padding: 13px;
+}
+
+.contact .mytext .delivery {
+  margin: 15px;
+  padding: 13px;
+}
+
+.contact .mytext .dine-in {
+  margin: 15px;
+  padding: 13px;
+}
+
+.contact .myform .mybutton {
+  border-radius: 25px;
+  padding: 9px;
+}
+
+.contact .myform .mybutton p {
+  margin-bottom: 2rem;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.contact .myform .mybutton .formm {
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #333;
+  font-weight: bold;
+  font-size: 12px;
+  opacity: 1.1;
+}
+
+.contact .myform .mybutton .form-control {
+  background-color: #eeeeee;
+}
+
+.flut {
+  background-color: #2a2a2a;
+}
+
+.flut .mycard i {
+  color: #aeaeae;
+  font-size: 45px;
+}
+
+.flut h3::after {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  display: block;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: red;
+}
+
+.flut h3 {
+  color: white;
+  font-size: 21px;
+  font-weight: 700;
+  padding: 0;
+  margin-bottom: 40px;
+  position: relative;
+  padding: 16px;
+}
+
+.flut .link ul,
+.flut .myorder ul {
+  list-style-type: none;
+}
+
+.flut .link ul li a,
+.flut .myorder ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 0;
+  padding: 8px 0;
+  width: 100%;
+  font-size: 14px;
+  font-family: Rubik;
+}
+
+.ikon i {
+  color: #aeaeae;
+}
+
+.ikon span {
+  color: #aeaeae;
+  margin: 9px;
+  padding: 8px 0;
+  width: 100%;
+  font-size: 14px;
+  font-family: Rubik;
+}
+
+.ikon span a {
+  color: white;
+}
+
+.mysosial {
+  padding: 1rem;
+  background-color: #222222;
+}
+
+.mysosial a {
+  color: #aeaeae;
+  margin: 4px;
+  width: 50%;
+}
+
+.mysosial span {
+  margin-left: 43rem;
+  width: 50%;
+  font-size: 12px;
+  background-color: red;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

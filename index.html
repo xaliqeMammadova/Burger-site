@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fast Food</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    header .nav-link{
+      color: white !important;
+    }
+
+  </style>
+</head>
+
+<body>
+  <section>
+    <header style="position: absolute;
+    top: 4%;
+    width: 100%;
+    z-index: 1;
+    background-color: #222;" >
+      <div class="container">
+        <div class="row" style="align-items: center;">
+          <div class="col-md-5">
+           <nav class="navbar navbar-expand-lg ">
+             <div class="container-fluid">
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                 <ul class="navbar-nav">
+                   <li class="nav-item">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        HOME
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">About Us</a></li>
+                        <li><a class="dropdown-item" href="#">Contacts</a></li>
+                        <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                        <li><a class="dropdown-item" href="#">404 Page</a></li>
+
+                      </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ABOUT LAFKA
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">About Us</a></li>
+                        <li><a class="dropdown-item" href="#">Contacts</a></li>
+                        <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                        <li><a class="dropdown-item" href="#">404 Page</a></li>
+
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        OUR BLOG
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Blog Masonry</a></li>
+                        <li><a class="dropdown-item" href="#">Blog Mosaic</a></li>
+                        <li><a class="dropdown-item" href="#">Standard Blog</a></li>
+                        <li><a class="dropdown-item" href="#">Standard Left Sidebar</a></li>
+                      </ul>
+                    </li>
+                   <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    OUR MENU
+                     </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                       <li><a class="dropdown-item" href="#">v.1 Menu – Sections</a></li>
+                       <li><a class="dropdown-item" href="#">v.2 Menu – Cards</a></li>
+                       <li><a class="dropdown-item" href="#">v.3 Menu – Chalkboard</a></li>
+                       <li><a class="dropdown-item" href="#">v.4 Menu – Modern</a></li>
+                       <li><a class="dropdown-item" href="#">Menu Options</a></li>
+
+                     </ul>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+           </nav>
+          </div>
+          <div class="col-md-2 logos">
+            <a href="" style="background: #ffca3c;
+            padding: 1rem 3rem;
+            top: -30%;
+            position: absolute;">
+              <img src="https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/06/logo-lafka-shop-100x100.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-5">
+           <nav class="navbar navbar-expand-lg ">
+             <div class="container-fluid">
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                 <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ORDER ONLİNE
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Configurable Products & 
+                        Custom Product Addons</a></li>
+                      <li><a class="dropdown-item" href="#">Nutrition Facts</a></li>
+                      <li><a class="dropdown-item" href="#">Quick Order Variable Products</a></li>
+                      <li><a class="dropdown-item" href="#">Wide + Left Sidebar</a></li>
+
+                    </ul>
+                  </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#">CATERİNG</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#">LOCATIONS</a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACTS</a>
+                  </li>
+                
+                   
+                 </ul>
+               </div>
+             </div>
+           </nav>
+          </div>
+        </div>
+      </div>
+     </header>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url(img/pexels-photo-750073.jpeg);">
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5>YOUR BURGER YOUR WAY</h5>
+            <p>Choose Your Favorite Ingredients</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(img/pexels-photo-2725744.jpeg);">
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5>LAFKA BLOG</h5>
+            <p>Serving up lovingly crafted from scratch Pizza, Pasta, Sandwiches, Salads and much more, made to order
+              and delivered fast to our North Side neighbors for lunch, dinner and late night.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(img/pexels-photo-1639565.jpeg);">
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Eats & Sweets</h5>
+            <p>Save with Our Meals.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+<div>
+  <button>
+    <span>Order Online or Call Now:</span>
+    <p><i class="fas fa-phone-alt"></i>+555 234 7651</p>
+
+  </button>
+</div>
+
+  </section>
+
+
+  <section class="card-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6" data-aos="fade-right">
+          <div class="card">
+            <img src="img/burger17.jpg" alt="">
+            <span>$11<sup>.99</sup></span>
+            <div class="star">
+
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i>
+
+            </div>
+            <div class="heart">
+              <a href=""> <i class="far fa-heart"></i></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bacon Cheeseburger</h5>
+              <p class="card-text">Smoked brisket, tender ribs, smoked sausage, bacon & cheddar with lettuce, tomato,
+                house BBQ & ranch.</p>
+              <a href="#" class="btn btn-primary">ORDER NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-down">
+          <div class="card">
+            <img src="img/burger13-680x680.jpg" alt="">
+            <span>$8<sup>.99</sup></span>
+            <div class="heart">
+              <a href=""> <i class="far fa-heart"></i></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Jalapeno Angus Burger</h5>
+              <p class="card-text">Smoked brisket, tender ribs, smoked sausage, bacon & cheddar with lettuce, tomato,
+                house BBQ & ranch.</p>
+              <a href="#" class="btn btn-primary">ORDER NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-down">
+          <div class="card">
+            <img src="img/burger18.jpg" alt="">
+            <span>$9<sup>.99</sup></span>
+            <div class="star">
+
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i>
+
+            </div>
+            <div class="heart">
+              <a href=""> <i class="far fa-heart"></i></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Big Brekkie BBQ Burger</h5>
+              <p class="card-text">Smoked brisket, tender ribs, smoked sausage, bacon & cheddar with lettuce, tomato,
+                house BBQ & ranch.</p>
+              <a href="#" class="btn btn-primary">ORDER NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6"data-aos="fade-down-left">
+          <div class="card">
+            <img src="img/burger13-680x680.jpg" alt="">
+            <span>$11<sup>.99</sup></span>
+            <div class="heart">
+              <a href=""> <i class="far fa-heart"></i></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Original Angus Burger</h5>
+              <p class="card-text">Smoked brisket, tender ribs, smoked sausage, bacon & cheddar with lettuce, tomato,
+                house BBQ & ranch.</p>
+              <a href="#" class="btn btn-primary">ORDER NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 servic">
+          <div class="img"></div>
+          <h6>Friendly Service</h6>
+          <p>Filet mignon buffalo shankle leberkas, porchetta frankfurter.</p>
+        </div>
+        <div class="col-lg-3 col-md-3 servic">
+          <div class="recipes"></div>
+          <h6>Original Recipes</h6>
+          <p>Filet mignon buffalo shankle leberkas, porchetta frankfurter.</p>
+
+        </div>
+        <div class="col-lg-3 col-md-3 servic">
+          <div class="location"></div>
+          <h6>Convenient Locations</h6>
+          <p>Filet mignon buffalo shankle leberkas, porchetta frankfurter.</p>
+
+
+        </div>
+        <div class="col-lg-3 col-md-3 servic">
+          <div class="delivery"></div>
+          <h6>Fast Dlivery</h6>
+          <p>Filet mignon buffalo shankle leberkas, porchetta frankfurter.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <section class="year-tab-panel">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12">
+          <h1>Our Story</h1>
+          <ul style="list-style-type: none;" class="list-group" id="list-tab" role="tablist">
+
+            <li>
+              <a class="list-group-item list-group-item-action active show" id="list-home-list" data-bs-toggle="list"
+                href="#list-home" role="tab" aria-controls="list-home">1978</a>
+            </li>
+
+            <li>
+              <a class="list-group-item list-group-item-action" id="list-home-list" data-bs-toggle="list"
+                href="#list-home" role="tab" aria-controls="list-home">1996</a>
+            </li>
+
+            <li>
+              <a class="list-group-item list-group-item-action" id="list-home-list" data-bs-toggle="list"
+                href="#list-home" role="tab" aria-controls="list-home">2011</a>
+            </li>
+
+            <li>
+              <a class="list-group-item list-group-item-action" id="list-home-list" data-bs-toggle="list"
+                href="#list-home" role="tab" aria-controls="list-home">2015</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-12 myText">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+              <p>Spicy jalapeno bacon ipsum dolor amet jowl brisket burgdoggen, meatball bresaola bacon boudin tri-tip
+                pig pork fatback pork chop prosciutto short ribs pork belly. Ham boudin rump strip steak, porchetta
+                drumstick picanha spare ribs sausage. Tongue ham hock turkey kevin ham short loin tenderloin beef ribs
+                shank turducken chicken. Shankle ham boudin porchetta, corned beef ribeye strip steak pork chop.</p>
+
+
+            </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              <p> Spicy jalapeno bacon ipsum dolor amet jowl brisket burgdoggen, meatball bresaola bacon boudin tri-tip
+                pig pork fatback pork chop prosciutto short ribs pork belly. Ham boudin rump strip steak, porchetta
+                drumstick picanha spare ribs sausage. Tongue ham hock turkey kevin ham short loin tenderloin beef ribs
+                shank turducken chicken. Shankle ham boudin porchetta, corned beef ribeye strip steak pork chop.</p>
+            </div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+              <p> Spicy jalapeno bacon ipsum dolor amet jowl brisket burgdoggen, meatball bresaola bacon boudin tri-tip
+                pig pork fatback pork chop prosciutto short ribs pork belly. Ham boudin rump strip steak, porchetta
+                drumstick picanha spare ribs sausage. Tongue ham hock turkey kevin ham short loin tenderloin beef ribs
+                shank turducken chicken. Shankle ham boudin porchetta, corned beef ribeye strip steak pork chop.</p>
+
+
+            </div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+              <p>Spicy jalapeno bacon ipsum dolor amet jowl brisket burgdoggen, meatball bresaola bacon boudin tri-tip
+                pig pork fatback pork chop prosciutto short ribs pork belly. Ham boudin rump strip steak, porchetta
+                drumstick picanha spare ribs sausage. Tongue ham hock turkey kevin ham short loin tenderloin beef ribs
+                shank turducken chicken. Shankle ham boudin porchetta, corned beef ribeye strip steak pork chop.</p>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+  </section>
+<section class="sandwich">
+  <div class="container">
+    <div class="row">
+      <h3>
+        We only use the highest quality ingredients.
+        <br>
+        The result is a taste you can swear by.
+
+      </h3>
+      <p>Spicy jalapeno bacon ipsum dolor amet jowl brisket burgdoggen, meatball bresaola bacon boudin tri-tip pig pork
+        fatback pork chop prosciutto short ribs pork belly. Ham boudin rump strip steak, porchetta drumstick picanha
+        spare ribs sausage. Tongue ham hock turkey kevin ham short loin tenderloin beef ribs shank turducken chicken.
+        Shankle ham boudin porchetta, corned beef ribeye strip steak pork chop.
+
+      </p>
+
+      <img src="img/sandwich-board.png" alt="">
+
+
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+</section>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1imXobXhH29AMT73mEMEfxdLUjXijzQ5J" width="100%"
+  height="680"></iframe>
+
+<section class="contact">
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-lg-8 myform">
+        <div class="basliq-1">
+          <h1>Send us a Message
+          </h1>
+          <p>Aenean massa diam, viverra vitae luctus sed, gravida eget est. Etiam nec ipsum porttitor, consequat libero
+            eu, dignissim eros. Nulla auctor lacinia enim id mollis.
+
+          </p>
+        </div>
+        <div style="border:1px solid gray; padding: 21px;">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label formm">YOUR NAME:
+            </label>
+            <input type="name" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div>
+
+            <label for="exampleFormControlInput1" class="form-label formm">E-MAIL ADDRESS:
+
+            </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div> <label for="exampleFormControlInput1" class="form-label formm">
+              PHONE:
+            </label>
+            <input type="phone" class="form-control" id="exampleFormControlInput1">
+          </div>
+
+          <div><label for="exampleFormControlInput1" class="form-label formm">
+              SUBJECT:
+            </label>
+            <input type="subject" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label formm">
+              MESSAGE TEXT:
+
+            </label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+          </div>
+          <button type="button" class="btn btn-danger mybutton">SEND MESSAGE</button>
+
+        </div>
+      </div>
+
+      <div class="col-lg-4 mytext">
+
+        <div class="basliq-2">
+          <h1>About Lafka™
+          </h1>
+          <p>PO Box 16122 Collins Street West,
+          </p>
+          <p>Melbourne, Victoria 8007 Australia
+          </p>
+          <p>Phone: +61.3.8476.6487
+          </p>
+          <p>Email: order@pizza.con
+
+          </p>
+        </div>
+        <div class="dine-in" style="border: 1px solid grey;">
+          <h4>Dine-in Hours
+
+          </h4>
+          <p>Mon.: 10:30am – 9pm</p>
+          <p>Tue. – Sat.: 10:30am – 10pm</p>
+          <p>Sun.: 12pm – 9pm</p>
+        </div>
+        <div class="delivery" style="border: 1px solid grey;">
+          <h4>Delivery Hours</h4>
+          <p>Mon.: 10:30am – 9pm
+          </p>
+          <p>Tue. – Sat.: 10:30am – 10pm
+          </p>
+          <p>Sun.: 12pm – 9pm
+
+          </p>
+        </div>
+        <div class="takeout" style="border: 1px solid grey;">
+          <h4>Takeout Hours
+
+          </h4>
+          <p>Mon.: 10:30am – 9pm
+          </p>
+          <p>Tue. – Sat.: 10:30am – 10pm
+          </p>
+          <p>Sun.: 12pm – 9pm
+          </p>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+</section>
+<section class="flut">
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-3 link">
+        <div class="row">
+
+          <h3>Information</h3>
+          <ul>
+            <li> <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">About Us</a>
+            </li>
+            <li>
+              <a href="">Our Menu</a>
+            </li>
+            <li>
+              <a href="">Blog</a>
+            </li>
+            <li>
+              <a href="">Contacts</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 myorder">
+        <div class="row">
+          <h3>Extras
+          </h3>
+          <ul>
+            <li> <a href="">My Order</a>
+            </li>
+            <li>
+              <a href="">Checkout</a>
+            </li>
+            <li>
+              <a href="">Catering</a>
+            </li>
+            <li>
+              <a href="">Our Locations</a>
+            </li>
+            <li>
+              <a href="">Privacy Policy</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+      <div class="col-lg-3 ikon">
+        <div class="row">
+          <h3>Get In Touch
+          </h3>
+          <div class="div"><i class="fas fa-clock"></i><span>Mon. - Sun.: 10:00 - 23:00</span></div>
+          <div class="div"><i class="fas fa-map-marker-alt"></i><span>64 7th Avenue, Seattle, WA 9801</span></div>
+          <div class="div"><i class="fas fa-phone"></i><span>+1.888.292.7171</span></div>
+          <div class="div"> <i class="fas fa-fax"></i><span>+1.888.292.7172</span></div>
+          <div class="div"><i class="fas fa-envelope"></i><span><a href="">orders@pizza.com</a></span></div>
+
+        </div>
+
+      </div>
+      <div class="col-lg-3 mycard">
+        <h3>We Accept</h3>
+        <i class="fab fa-cc-amex"></i>
+        <i class="fab fa-cc-mastercard"></i>
+        <i class="fab fa-cc-visa"></i>
+        <i class="fab fa-cc-paypal"></i>
+        <i class="fab fa-cc-amex"></i>
+        <i class="fab fa-cc-mastercard"></i>
+        <i class="fab fa-cc-visa"></i>
+        <i class="fab fa-cc-paypal"></i>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="mysosial">
+  <div class="container">
+
+
+    <a href=""><i class="fab fa-facebook-f"></i></a>
+    <a href=""><i class="fab fa-twitter"></i></a>
+    <a href=""><i class="fab fa-youtube"></i></a>
+    <a href=""><i class="fab fa-instagram"></i></a>
+    <span>Lafka theme by theAlThemist | © 2019 All rights reserved!</span>
+  </div>
+
+
+</section>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script>
+ 
+  AOS.init(
+    {
+      duration: 900,
+    }
+  )
+</script>
+</body>
+
+</html>

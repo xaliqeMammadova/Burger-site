@@ -1,0 +1,360 @@
+
+
+
+    
+
+
+.card-body {
+    .btn:hover{
+      background-color: white;
+      color: red;
+      border: solid black;
+    }
+    
+    a{
+    border-radius: 31rem;
+    width: 55%;
+    margin-left: 3rem;
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    padding: 0;
+    }
+   }
+   .card{
+       position: relative;
+       .heart{
+           a{
+               color: black;
+           }
+           a:hover{
+               color:red;
+           }
+        font-size: 21px;
+        width: 40px;
+        height: 40px;
+        margin-left: 14rem;
+       }
+       .star{
+           color: hsl(43, 96%, 51%);
+           position: absolute;
+           top: 3%;
+           left: 61%;
+           }
+       span{
+           font-weight: bold;
+           background-color: #4f2d22;
+           width: 19%;
+           border: 1px solid hsl(15, 40%, 22%);
+           color: hsl(46, 99%, 68%);
+           padding: 5px 1px;
+           border-radius: 5px;
+           position: absolute;
+           top: 2%;
+           left: 3%;
+        
+       }
+   }
+   
+   .servic{
+    margin-top: 4rem;
+    h6{
+    font-size: 19px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    margin:1rem 0;
+    
+    }
+    p{
+    margin: 1em 0;
+    line-height: 1.625em;
+    margin: 1em 0;
+    color: grey;
+    }
+    .recipes{
+    background-image: url(img/menu.png);
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    }
+    .img{
+    background-image: url(img/food.png);
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    }
+    .location{
+        background-image: url(img/car-wash.png);
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+        width: 100px;
+    }
+    .delivery{
+        background-image: url(img/fast-delivery.png);
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+        width: 100px;
+    }
+
+}
+.carousel-inner{
+    height:100vh;
+.carousel-item{
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    .carousel-caption{
+        h5{
+            font-size: 60px;
+            color: white
+            
+        }
+    }
+
+    
+}
+}
+
+.sandwich{
+    p{
+        text-align: center;
+        margin: 1em 0;
+        line-height: 1.625em;
+        color: #888;
+    }
+    h3{
+        color: #22272d;
+        font-size: 30px;
+        font-weight: 700;
+        font-style: normal; 
+        text-align: center;
+        font-family: Rubik;
+        line-height: 1.3em;
+    }
+}
+.year-tab-panel {
+    h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 44px;
+    font-style: normal;
+    padding: 11px;
+    margin: 14px;
+    }
+    .myText{
+        p{
+            margin: 2em 0;
+            line-height: 1.625em;
+            text-align: center;
+            font-size: 22px;
+            font-family:inherit;
+        }
+    }
+    ul{
+    flex-direction: row;
+    justify-content: center;
+    
+    li{
+        .list-group-item{
+           padding: 1rem 2rem;
+            border: solid #d6cbcb;
+            
+        }
+        .list-group-item.active {
+            background-color:#d6cbcb !important;
+
+        }
+        margin: 0 30px;
+        border-radius: 41px;
+        padding: 10px;
+        box-sizing: inherit;
+       +li ::after{
+            content: "";
+            height: 2px;
+            width: 75px;
+            border-bottom: 2px dashed gray;
+            position: absolute;
+            vertical-align: middle;
+            left: -79px;
+            top: 50%;
+
+        }
+    }
+
+}
+.list-group-item:hover{
+    background-color: #e4584b !important;
+}
+}
+@media screen and (max-width: 992px) {
+    .year-tab-panel{
+        ul{
+            li{
+    margin: 0 -13px;
+    border-radius: 41px;
+    padding: 10px;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    +li ::after{
+        content: "";
+        height: 2px;
+        width: 75px;
+        border-bottom: 2px dashed gray;
+        position: absolute;
+        vertical-align: middle;
+        left: -79px;
+        top: 50%;
+        display: none;
+
+    }
+            }
+        }
+    }
+}
+.contact {
+    .mytext {
+        margin-bottom: 35px;
+        .basliq-2{
+            margin: 15px;
+            
+        }
+        .takeout{
+            margin: 15px;
+            padding: 13px;
+
+        }
+        .delivery{
+            margin: 15px;
+            padding: 13px;
+
+        }
+        .dine-in{
+            margin: 15px;
+            padding: 13px;
+
+        
+        }
+    }
+
+    .myform {
+        .mybutton {
+            border-radius: 25px;
+            padding: 9px;
+
+        p {
+            margin-bottom: 2rem;
+            font-family: 'Work Sans', sans-serif;
+        }
+
+        .formm {
+            margin-bottom: 8px;
+            font-weight: 700;
+            color: #333;
+            font-weight: bold;
+            font-size: 12px;
+            opacity: 1.1
+        }
+
+        .form-control {
+            background-color: #eeeeee
+        }
+    }
+
+}
+}
+.flut {
+    .mycard {
+        i {
+            color: #aeaeae;
+            font-size: 45px;
+        }
+    }
+
+    
+       h3::after {
+            position: absolute;
+            bottom: 0;
+            left: 16px;
+            display: block;
+            content: "";
+            width: 50px;
+            height: 2px;
+            background-color: red;
+        }
+
+       h3 {
+           color: white;
+        font-size: 21px;
+        font-weight: 700;
+        padding: 0;
+        margin-bottom: 40px;
+        position: relative;
+        padding: 16px;
+
+    }
+
+    background-color: #2a2a2a;
+
+    .link,
+    .myorder {
+        ul {
+            li {
+                a {
+                    text-decoration: none;
+                    color: whitesmoke;
+                    margin: 0;
+                    padding: 8px 0;
+                    width: 100%;
+                    font-size: 14px;
+                    font-family: Rubik;
+
+                }
+            }
+
+            list-style-type: none;
+        }
+    }
+
+}
+
+
+
+.ikon {
+    i {
+        color: #aeaeae;
+    }
+
+    span {
+        color: #aeaeae;
+        margin: 9px;
+        padding: 8px 0;
+        width: 100%;
+        font-size: 14px;
+        font-family: Rubik;
+
+        a {
+            color: white;
+        }
+    }
+}
+.mysosial{
+    padding: 1rem;
+    background-color: #222222;
+    a{
+        color: #aeaeae;
+        margin: 4px;
+        width: 50%;
+    }
+    span{
+        margin-left: 43rem;
+        width: 50%;
+        font-size: 12px;
+        background-color: red;
+        color: white;
+    }
+}
